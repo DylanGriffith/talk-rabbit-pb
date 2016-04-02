@@ -1,0 +1,10 @@
+package PB;
+
+message WordCount {
+  required string word = 1;
+  required int32 count = 2;
+}
+
+message WordCounts {
+  repeated WordCount word_counts = 1;
+}
